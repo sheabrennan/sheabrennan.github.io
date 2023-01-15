@@ -75,9 +75,14 @@ footer:
 
 
 collections:
+  tools:
+    permalink: /:collection/:name
+    output: true
   books:
     permalink: /:collection/:name
     output: true
+  ideas:
+  
     
 
 defaults:
