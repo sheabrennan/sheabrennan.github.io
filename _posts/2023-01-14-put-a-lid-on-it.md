@@ -44,6 +44,7 @@ I measured the can with my trusty [calipers](/tools/)  The three dimensions that
 We're gonna 3d print something using openSCAD, cura, octoprint, and my ender 3v2.
 
 ## 1st Stab
+{: .text-center}
 3 different sized cylinders, 2 with the centers cut out.
 
 ```javascript
@@ -78,7 +79,7 @@ This renders out to something like this in Cura:
 
 You can't really see the lip, but it's there.
 
-Printing on the Ender with [Hatchbox PLA in Copper](https://www.hatchbox3d.com/collections/pla-1-75mm/products/3d-pla-1kg1-75-copr)(which I absolutely love).  Estimated print time in 50 minutes. 
+Printing on the Ender with [Hatchbox PLA in Copper](https://www.hatchbox3d.com/collections/pla-1-75mm/products/3d-pla-1kg1-75-copr){:target="_blank"} (which I absolutely love).  Estimated print time in 50 minutes. 
 
 {% include image.html url ="/assets/images/putalidonit/PXL_20230114_171714698.jpg" description="It begins.." %}
 
@@ -102,7 +103,7 @@ I cleaned it up with a deburrer and slapped it on a can.
 It fits like a glove.  Like a really, REALLY tight glove.  It's **way** too tight for our purposes.  Additionally, in removing it, i split the Z seam so a reasonably good start honestly.  Time for another run:
 
 ## 2nd Go
-
+{: .text-center}
 The aesthetics thing with a few layers not adhering between the catcher and holder isn't really important to me but I think a change to the catch/hold geometry might kill 2 birds.  So my tweaks here are going to focus on making the lid **looser** and a bit more resilient to snapping on and off.
 
 And because it's the way i work, I totally redid the implementation using a rotational extrusion.  It's *probably* the right way to do it, but i dunno. I tweaked the size of the opening over the lid and added a 'chamfer' of sorts to see if it'll print a bit smoother. 
@@ -153,7 +154,7 @@ That notwithstanding, it works!  It's quite a bit looser in the catch but holds 
 
 
 ## The Result
-
+{: .text-center}
 I really enjoy simple modelling like this.  All told, the measure/design/refactor active time for this project was probably just a couple hours.  And having something that really 'solves' my initial problem is just incredibly satisfying.
 
 * Something secure enough to pick up and carry the can around with  5/5, nailed it.
@@ -163,6 +164,7 @@ I really enjoy simple modelling like this.  All told, the measure/design/refacto
 All in all, i'll call it a 4/5.  Definite success.
 
 ## Potential offshoots
+{: .text-center}
 
 I'm pretty sure I won't spend any more time trying to 'improve' this one, but if I do it'd probably be to adapt it for some flexi filament or to add a tab/bigger lip for leverage to remove it (if it doesn't loosen up through use)
 
@@ -171,7 +173,7 @@ As always though, there are 3d printing related things that bugged me:
 * I need to get my lighting setup with _actual_ power.  (it's currently connected via alligator clips to my benchtop power supply. :rofl: )
 * I should get an enclosure setup with air exchange/filtering.  I **have** the Creality one for the v2, i just need to do a filament feed change and get a base platform for the dresser the printer is on.  Air filtering would be extra, but even just the enclosure would be better.
 * If i'm changing filament feed, i should build a humidity controlled filament box to feed from.
-* I bought a couple of the [Adafruit CCS811](https://www.adafruit.com/product/3566) air quality sensors to throw at an ESP or RPi (if i could ever get one) ages ago and they're just gathering dust.
+* I bought a couple of the [Adafruit CCS811](https://www.adafruit.com/product/3566){:target="_blank"}  air quality sensors to throw at an ESP or RPi (if i could ever get one) ages ago and they're just gathering dust.
 * My cooling fans are cheap and very loud. I'd like them to be quieter.
 * I'd like to get network storage setup so I can skip 'uploading' prints to Octoprint.  This would be a **really** quick project. :wink:
 * I should learn more about openSCAD and dive into Fusion (or similar).  Both would require some specific project or need (and, surprise surprise, i have a couple ideas.)

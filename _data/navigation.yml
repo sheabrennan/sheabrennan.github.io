@@ -3,8 +3,8 @@ main:
     url: /posts/
   - title: "Ideas"
     url: /ideas/
-  - title: "Books"
-    url: /books/
+  - title: "Tools"
+    url: /tools/
   - title: "Categories"
     url: /categories/
   - title: "About"
