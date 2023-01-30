@@ -38,7 +38,7 @@ I had a trim removal kit (some random amazon purchase for years ago) that came i
 The car has side impact airbags for all passengers which gave me a _little_ worry, but i left the trim over them mostly in place and just pushed the wire around them where necessary.
 
 ## The Doing
-
+{: .text-center}
 I threw everything on the driver's seat and started pulling stuff apart.
 
 <figure> 
@@ -88,7 +88,7 @@ I intentionally mounted the front camera so as much of the unit as possible is o
 
 
 ## The Result
-
+{: .text-center}
 All in all, this was a pretty easy task.  I didn't do _too much_ damage and it wouldn't be much work to remove if need be.  Probably 3 hours on the install and another 3 in the buyers research.
 
 I've validated the recording functions as expected but haven't actually pulled and reviewed any of the footage for clarity/quality, but I'm pretty confident it'll work for the identification of vehicles and all the usual case stuff if it comes to that.
@@ -96,7 +96,7 @@ I've validated the recording functions as expected but haven't actually pulled a
 The unit is setup to record in-car audio, which i'm mostly on the fence about but the paranoid person in me really likes the idea of having audio in the event of a contested moving violation or whatever.  I doubt we'll ever even look at the video
 
 ## Potential offshoots
-
+{: .text-center}
 (All very low likelihood, but in descending order of likelihood regardless)
 
 * I would be interested in a way to overlay vehicle metrics (speed and pedal positions) on the vehicle, so some ODB capture system could be fun.  If we did that, it'd make sense to include something with an accelerometer for acceleration, deceleration, and lateral force with 1 sensor.
