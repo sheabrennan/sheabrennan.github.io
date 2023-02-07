@@ -22,7 +22,7 @@ I'm going to give learning a subset (or several) of the knots a shot and we'll s
     {% assign knots = site.knots | where: "focusgroup", tag %}
 
 {% for knot in knots %}
-* <a href="{{knot.url}}">{{ knot.name }} - ABOK#{{ knot.aboknumber}}</a>
+* <a href="{{knot.url}}">{{ knot.title }} - ABOK#{{ knot.aboknumber}}</a>
 {% endfor %}
 
 {% endfor %}
